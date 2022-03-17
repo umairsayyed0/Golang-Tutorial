@@ -22,7 +22,7 @@ func main() {
 	ptr := &p
 
 	fmt.Println("Point p = ", p)
-
+	//checking up to amend PR
 	// Calling a Method with Value receiver
 	p.IsAbove(1)   // Valid
 	ptr.IsAbove(1) // Valid
