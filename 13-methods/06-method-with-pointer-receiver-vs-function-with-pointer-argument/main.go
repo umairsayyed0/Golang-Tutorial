@@ -24,7 +24,7 @@ func main() {
 	p := Point{3, 4}
 	ptr := &p
 	fmt.Println("Point p = ", p)
-
+        //Try passing some structured data to see how actually passing eference works
 	// Calling a Method with Pointer receiver
 	p.Translate(2, 6)    // Valid
 	ptr.Translate(5, 10) // Valid
